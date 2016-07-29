@@ -84,13 +84,8 @@ Let's try it and see what happens
  
 ## Control Flow
 
-### For Loops
+### Loops
 
-A basic 'for' loop 
-
-    for (var i = 0; i < 9; i++) {
-        console.log(i);
-    }
 
 Here's how you can loop over all positions in a list
 
@@ -107,15 +102,26 @@ You can also do something similar with dictionaries but you'll get back a 'key' 
         console.log("The " + key + " says " + sound + "!");
     }
     
-If you want more control over which positions get printed you can also create a variable
+Looping with a counter
+
+    for (var i = 0; i < 9; i++) {
+        console.log(i);
+    }
+    
+You can also loop with counters over the lists
     
     var myList = ['jane','jill','jackie'];
     for (var i = 0; i < foo.length; i++) {
         console.log(myList[i]);
     }
 
-Control Structures(Skip)
-Callbacks (Skip)
+### Conditionals
+
+Our programs always do the same thing. What if we wanted it to be able to do something different depending on what the user did? We can use IF statements.
+
+
+
+Callbacks
 Scope of Variables
 
 For more JavaScript Exercises Try [IntroComputing.org](http://introcomputing.org/)
