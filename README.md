@@ -16,16 +16,16 @@ View -> Developer -> JavaScript Console
 
 1. Paste the following in to the console.
 
-`console.log("Hello World");`
+    console.log("Hello World");
 
 2. Text can be glued together in JavaScript.
 
-`console.log("Hello" + " " + "World" + "!");`
+    console.log("Hello" + " " + "World" + "!");
 
 3. It can also be saved in a variable
 
-`var myText = "Hello World!";`
-`console.log(myText);`
+        var myText = "Hello World!";  
+        console.log(myText);  
 
 4. If you wanted to really shout your message out to the world you could also try the following:
 
@@ -59,12 +59,12 @@ Do some match function
 ### Paste the Following JavaScript code into the Console
 Note: Ignore the warning about the method being deprecated. It means that you shouldn't use this technique on a real website because a) it's poor form for users and b) in the future, they might stop supporting it so your site may stop working.
 
- `function httpGet(theUrl)`  
- `{`  
- `    var xmlHttp = new XMLHttpRequest();`  
- `    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request`  
- `    xmlHttp.send( null );`  
-`    return JSON.parse(xmlHttp.responseText);`  
-`}`  
+    function httpGet(theUrl)  
+    {  
+        var xmlHttp = new XMLHttpRequest();  
+        xmlHttp.open( "GET", theUrl, false ); // false for synchronous request  
+        xmlHttp.send( null );  
+        return JSON.parse(xmlHttp.responseText);  
+    }  
 
 Note [via StackOverflow](http://stackoverflow.com/questions/247483/http-get-request-in-javascript)
