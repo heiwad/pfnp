@@ -32,13 +32,13 @@ View -> Developer -> JavaScript Console
         alert(myText);
         
 
-5. We can also get text from the user and save it to a variable and then use it.
+5. We can also get text from the user and save it too!
 
         var inputText = prompt("What's your name?");
         console.log(inputText);
 
 
-> ### Code Challenge:  
+### Code Challenge:  
 > Ask the user for their favorite color and say something about it back to them!  
 > For example if I told you my favorite color is yellow,  
 > You would print "No way, yellow is my favorite color too!"
