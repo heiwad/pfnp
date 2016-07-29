@@ -16,7 +16,7 @@ View -> Developer -> JavaScript Console
 
 1. Paste the following in to the console.
 
-        console.log("Hello World");
+        console.log("Hello World!");
 
 2. Text can be glued together in JavaScript.
 
@@ -31,7 +31,6 @@ View -> Developer -> JavaScript Console
 
         alert(myText);
 
-    (Please never do that)
 
 5. We can also get text from the user and save it.
 
