@@ -16,11 +16,11 @@ View -> Developer -> JavaScript Console
 
 1. Paste the following in to the console.
 
-    console.log("Hello World");
+        console.log("Hello World");
 
 2. Text can be glued together in JavaScript.
 
-    console.log("Hello" + " " + "World" + "!");
+        console.log("Hello" + " " + "World" + "!");
 
 3. It can also be saved in a variable
 
@@ -29,17 +29,17 @@ View -> Developer -> JavaScript Console
 
 4. If you wanted to really shout your message out to the world you could also try the following:
 
-`alert(myText);`
+        alert(myText);
 
-(Please never do that)
+    (Please never do that)
 
 5. We can also get text from the user and save it.
 
-`var inputText = prompt("What's your name?");`
+        var inputText = prompt("What's your name?");
 
 6. You can print that message back to the console!
 
-`console.log(inputText)`
+        console.log(inputText);
 
 ## Ok text is ok. But what else can I do?
 
