@@ -1,6 +1,6 @@
-# pfnp
+# Programming for Non Programmers
 
-# Intro To Javascript #
+# JavaScript Workout
 
 In the following set of activities, you are going to start to get familiar with JavaScript.
 Some of it might feel a bit like magic. That's ok.
@@ -69,22 +69,20 @@ Custom Multiplier
             return number1 * number2;
     }
 
-What if we want to use info from prompt?
-We have to turn it into an int using parseInt(myText)
+What if we want to use info from prompt to do math?  
+We may have to tell JavaScript that it's a number using parseInt(myText)
+Let's try it and see what happens
 
-### Paste the Following JavaScript code into the Console
-Note: Ignore the warning about the method being deprecated. It means that you shouldn't use this technique on a real website because a) it's poor form for users and b) in the future, they might stop supporting it so your site may stop working.
+    var input = prompt("How old are you?");
+    age = parseInt(input);
+    console.log("Next year you'll be: " + (input+1) );
+    console.log("Next year you'll be: " + (age+1));
 
-    function httpGet(theUrl)  
-    {  
-        var xmlHttp = new XMLHttpRequest();  
-        xmlHttp.open( "GET", theUrl, false ); // false for synchronous request  
-        xmlHttp.send( null );  
-        return JSON.parse(xmlHttp.responseText);  
-    }  
 
-Note [via StackOverflow](http://stackoverflow.com/questions/247483/http-get-request-in-javascript)
-
+### What was the result?        
+    
+ 
+## Control Flow
 
 ### For Loops
 
@@ -93,7 +91,6 @@ A basic 'for' loop
     for (var i = 0; i < 9; i++) {
         console.log(i);
     }
-    
 
 Here's how you can loop over all positions in a list
 
@@ -124,3 +121,7 @@ Scope of Variables
 For more JavaScript Exercises Try [IntroComputing.org](http://introcomputing.org/)
 
 More JavaScript Types: Null, Undefined, Symbol [MDN JavaScript Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
+
+Getting Data from the Internet [via StackOverflow](http://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+Getting Data From [Giphy API](https://github.com/Giphy/GiphyAPI#random-endpoint) 
