@@ -45,18 +45,58 @@ View -> Developer -> JavaScript Console
         
 
 ## Part 2: A bit more JavaScript
-Six data types that are primitives:
-Boolean
-Number
-String (Text)
-Object
 
-Numbers
-Text
-Lists
-Objects (dictionaries)
+Types of things
+* Numbers
+* Boolean
+* null
+* undefined
+* Text
+* Lists
+* Objects (dictionaries)
 
-Math - Numbers in javascript are a little strange. That's ok
+### Math !
+
+We can do math in the console.
+```
+>>> 2 + 2
+4
+>>> 2 * 3.5
+7.0
+>>>
+```
+
+### Practice question - try these out in the console:
+```
+1. 2 * 7 * 3.5
+2. 3 + 5 - (2 * 6)
+3. (3 + 5 - 2) * 6
+4. 4 == 5
+5. 5 == 5
+6. 4 < 5
+7. 5 >= 4
+8. 9 != 9
+9. 8 != 9
+```
+
+### Assignment vs Equality Check
+
+```
+>>> x = 2
+>>> x == 5
+>>> x = 5
+```
+
+# Practice problems
+```
+- Set a variable called `name` equal to your full name.
+- Set a variable called `first_name` equal to your first name.
+- Set a variable called `last_name` equal to your last name.
+- Then combine `first_name` and `last_name` so that it equals your full name, and save this in a variable called `full_name`.
+- Prove using the == operator that they are equal.
+```
+
+Todo:
 Lists - add to list. get items back from the list
 Objects or Dictionaries - add names, phone numbers, get them back
 
